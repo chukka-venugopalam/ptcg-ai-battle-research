@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>A Code, For You</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --autumn-deep: #241309;
+    --autumn-mid: #46270f;
+    --rust: #b5502f;
+    --gold: #d99a44;
+    --cream: #f3e6d8;
+    --cream-dim: #d8c4ac;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at 50% 15%, var(--autumn-mid), var(--autumn-deep) 75%);
+    font-family: 'Work Sans', sans-serif;
+    color: var(--cream);
+    overflow: hidden;
+  }
+
+  #leafCanvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .screen {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .card {
+    background: linear-gradient(180deg, rgba(70,39,15,0.55), rgba(36,19,9,0.78));
+    border: 1px solid rgba(217,154,68,0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 18px;
+    padding: 56px 48px;
+    max-width: 440px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+  }
+
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+    opacity: 0.85;
+  }
+
+  .card h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 1.85rem;
+    line-height: 1.35;
+    margin: 0 0 14px 0;
+    color: var(--cream);
+  }
+
+  .card p.sub {
+    font-size: 0.92rem;
+    color: var(--cream-dim);
+    margin: 0 0 32px 0;
+    line-height: 1.6;
+  }
+
+  #codeInput {
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+    border: 1px solid rgba(217,154,68,0.35);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cream);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #codeInput:focus {
+    border-color: var(--rust);
+    box-shadow: 0 0 0 3px rgba(181,80,47,0.2);
+  }
+
+  #codeInput.shake {
+    animation: shake 0.45s;
+    border-color: #c66;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-8px); }
+    40% { transform: translateX(8px); }
+    60% { transform: translateX(-6px); }
+    80% { transform: translateX(6px); }
+  }
+
+  #enterBtn {
+    margin-top: 18px;
+    width: 100%;
+    padding: 13px;
+    background: transparent;
+    border: 1px solid var(--rust);
+    color: var(--gold);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  #enterBtn:hover {
+    background: var(--rust);
+    color: var(--cream);
+  }
+
+  .hint {
+    margin-top: 16px;
+    font-size: 0.78rem;
+    color: rgba(243,230,216,0.45);
+    min-height: 18px;
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 40px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="leafCanvas"></canvas>
+
+<div class="screen" id="landingScreen">
+  <div class="card">
+    <div class="eyebrow">Autumn, a period of transition</div>
+    <h1>The words are waiting</h1>
+    <p class="sub">You have a code. It isn't your name — it's a word that describes you the most. Enter it to find out what it is.</p>
+    <input type="text" id="codeInput" placeholder="ENTER CODE" autocomplete="off" spellcheck="false" />
+    <button id="enterBtn">Reveal</button>
+    <div class="hint" id="hintText"></div>
+  </div>
+</div>
+
+<script>
+/* ================= LEAF BACKGROUND (autumn) ================= */
+const canvas = document.getElementById('leafCanvas');
+const ctx = canvas.getContext('2d');
+let w, h;
+
+function resize() {
+  w = canvas.width = window.innerWidth;
+  h = canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resize);
+resize();
+
+const leafColors = ['#c1502e', '#d9822b', '#8c3b1b', '#e8b23d', '#a5451f', '#6b3410', '#c78a3f'];
+
+function makeLeaf() {
+  return {
+    x: Math.random() * w,
+    y: Math.random() * -h,
+    size: 8 + Math.random() * 15,
+    speedY: 0.35 + Math.random() * 0.85,
+    swaySpeed: 0.4 + Math.random() * 0.8,
+    swayAmp: 20 + Math.random() * 40,
+    swayOffset: Math.random() * Math.PI * 2,
+    rotation: Math.random() * Math.PI * 2,
+    rotationSpeed: (Math.random() - 0.5) * 0.025,
+    color: leafColors[Math.floor(Math.random() * leafColors.length)],
+    opacity: 0.55 + Math.random() * 0.4
+  };
+}
+
+const leafCount = Math.min(60, Math.floor((window.innerWidth * window.innerHeight) / 18000));
+let leaves = Array.from({ length: leafCount }, makeLeaf);
+
+function drawLeaf(leaf) {
+  ctx.save();
+  ctx.translate(leaf.x, leaf.y);
+  ctx.rotate(leaf.rotation);
+  ctx.globalAlpha = leaf.opacity;
+  ctx.fillStyle = leaf.color;
+  ctx.beginPath();
+  const s = leaf.size;
+  ctx.moveTo(0, -s);
+  ctx.bezierCurveTo(s * 0.8, -s * 0.5, s * 0.8, s * 0.5, 0, s);
+  ctx.bezierCurveTo(-s * 0.8, s * 0.5, -s * 0.8, -s * 0.5, 0, -s);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(0,0,0,0.18)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(0, -s);
+  ctx.lineTo(0, s);
+  ctx.stroke();
+  ctx.restore();
+}
+
+let t = 0;
+function animate() {
+  ctx.clearRect(0, 0, w, h);
+  t += 0.016;
+  for (const leaf of leaves) {
+    leaf.y += leaf.speedY;
+    leaf.x += Math.sin(t * leaf.swaySpeed + leaf.swayOffset) * 0.6;
+    leaf.rotation += leaf.rotationSpeed;
+    if (leaf.y - leaf.size > h) {
+      Object.assign(leaf, makeLeaf());
+      leaf.y = -leaf.size;
+    }
+    drawLeaf(leaf);
+  }
+  requestAnimationFrame(animate);
+}
+animate();
+
+/* ================= GATE LOGIC ================= */
+/* Add one entry per person here: CODE -> their page */
+const codeMap = {
+  'GENIAL': 'genial.html',
+  'RENAISSANCE': 'renaissance.html'
+  // 'ANOTHERCODE': 'anotherperson.html',
+};
+
+const input = document.getElementById('codeInput');
+const btn = document.getElementById('enterBtn');
+const hint = document.getElementById('hintText');
+
+function tryEnter() {
+  const val = input.value.trim().toUpperCase();
+  if (codeMap[val]) {
+    window.location.href = codeMap[val];
+  } else {
+    hint.textContent = 'That\'s not quite it — try again.';
+    input.classList.remove('shake');
+    void input.offsetWidth;
+    input.classList.add('shake');
+  }
+}
+
+btn.addEventListener('click', tryEnter);
+input.addEventListener('keydown', (e) => { if (e.key === 'Enter') tryEnter(); });
+</script>
+</body>
+</html>
