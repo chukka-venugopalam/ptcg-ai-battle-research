@@ -1,0 +1,7 @@
+asset,status,source,where_to_use
+Card_ID_List_EN.pdf,supplied_by_user,current competition ZIP,Kaggle input/private research only
+Card_ID_List_JP.pdf,supplied_by_user,current competition ZIP,Kaggle input/private research only
+EN_Card_Data_R2_full.csv,supplied_by_user,current competition ZIP,Kaggle input/private research only
+JP_Card_Data_R2_full.csv,supplied_by_user,current competition ZIP,Kaggle input/private research only
+ptcg_engine_playground/,supplied_by_user,current competition ZIP,authorized simulator development only
+sample_submission/,supplied_by_user,current competition ZIP,starting submission template
