@@ -1,0 +1,17 @@
+PTCG AI Battle — Claude Agent Builder Pack v1
+Created: 2026-10-04
+
+Contents:
+- Claude master prompt
+- public research manifests
+- public research benchmark and model audit notes
+- fixed and original public-research bootstrap notebooks
+- competition CABT cg SDK bundle
+- repo template / clone scripts / submission template
+- current baseline notes
+- current leaderboard screenshot
+- selected Scio source excerpts and inventory output
+
+Known limitation:
+- Complete cloned working trees of the six public repositories were ephemeral in the prior Kaggle notebook and are not embedded here. Clone URLs are included in the manifests and bootstrap tooling.
+- Original competition card data ZIP is not embedded; the required input list is recorded in research/competition_inputs.csv.

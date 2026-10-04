@@ -1,0 +1,15 @@
+source_type,name,url,notes
+repo,Team Scio - pokemon-tcg-agent,https://github.com/SiamRahman29/pokemon-tcg-agent,Policy network; behavioral cloning; guardrails; arena/evaluation; many experiment notes
+repo,Team Lawliet - ptcg-ai-battle-agent,https://github.com/Lawliet-ai/ptcg-ai-battle-agent,PIMC/search/value net; measurement chain; MIT license stated in README
+repo,wmh - ptcg-abc,https://github.com/wmh/ptcg-abc,Rule agents; replay/meta analysis; prize tracking; evaluation tooling
+repo,Ducdata1808 - PTCG_Agent,https://github.com/Ducdata1808/PTCG_Agent,IS-MCTS; policy/value MLPs; deck collection; self-play/training manager
+repo,pckhoa206 - kaggle_challenge_pokemon,https://github.com/pckhoa206/kaggle_challenge_pokemon,Maskable PPO + heuristics; ONNX model; training/evaluation scripts
+repo,scha54 - Kaggle-Pokemon,https://github.com/scha54/Kaggle-Pokemon,Agent/search/deckbuilder/evaluation/test/submission packaging structure
+kaggle_notebook,Kiyota - Reinforcement Learning and MCTS sample code,https://www.kaggle.com/code/kiyotah/reinforcement-learning-and-mcts-sample-code,Public competition notebook; inspect architecture and output model artifacts before reuse
+writeup,14th Place - BC to Archetype Experts to Deck Specialists,https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1785817601057,Behavioral cloning; Transformer policies; PPO specialists; provable lethal search
+writeup,9th Place - Engine Lookahead + PPO,https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1788435877208,Behavioral cloning; value fine-tuning; PPO; bounded engine lookahead
+writeup,20th Place - Action-Dynamics Contrastive Pretraining,https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/writeups/20th-place-learning-to-play-pokmon-tcg,Pretrain state+action to resulting-state dynamics, then RL
+writeup,15th Place - Recurrent Actor-Critic Specialists,https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/writeups/15th-place-solution,Recurrent actor-critic specialists and population/self-play ideas
+writeup,27th Place - Pure RL Three-Stage Curriculum,https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/738158,Multi-deck -> archetype -> deck-specific PPO curriculum
+official,Current Playground competition,https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground,Official rules, resources, deadlines, submission contract
+official,CABT API documentation,https://matsuoinstitute.github.io/cabt/,Official simulator/API reference
