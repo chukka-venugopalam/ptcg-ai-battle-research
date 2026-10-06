@@ -57,3 +57,19 @@ bash submission/build_submission.sh
 ```
 
 The builder performs a structure/size smoke check. The official competition page is the authority for the submission limit and upload rules.
+
+## Latest submission record
+
+### 2026-10-06 — B-v2 `sym_k=8`
+
+The exact artifact submitted today is stored at:
+
+`submissions/2026-10-06/submission_Bv2_sym8.tar.gz`
+
+The accompanying validation/evidence report is:
+
+`research/B_V2_REPORT.md`
+
+The submission was B-v1 plus test-time symmetry averaging (`sym_k=8`). The
+available local battery recorded it as a decision-different, measured
+non-inferior variant; it was not proven to be a strength upgrade.
