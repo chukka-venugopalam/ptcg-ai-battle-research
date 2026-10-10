@@ -1,0 +1,136 @@
+repo,commit_prefix,path,bytes,sha256,kind
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp041_pilotnet/build_pre3b/cg/weights_pure.pkl,51160351,8151d272f91d904fd68e031cba42db06d136108f4cec1fec0dd354bb5ec8c619,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp047_pri_tobench/data/discard.pkl,352276,6f840e52737cf5cd1207dbf10b762f635d470103209c309b819144eef93717f6,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp047_pri_tobench/data/setupbench.pkl,25388,f33241df47388aae2b2904a807473ff5042330a81d105dc658936252eb2e92e9,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp047_pri_tobench/data/tobench.pkl,702874,60dcabbd4e515cb5cc33b80492efb184213419348123081145b00dc9ce135dd6,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/discard_canon.pkl,45639,ceca13f4a572242c08152c3277a7c599624876478430a3b29e827a18df875e14,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/discard_matsuda.pkl,45019,5d3a2c6368a40be2c2035831410f963564d1d0fddaa1db19374f543972e81577,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/discard_nomura.pkl,36940,164122d04b654e10028489fc0ae477b60103a6253413b2b2b539a7de2f51e365,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/discard_nomura2.pkl,166346,91850dd4607d60b85cbb69eb8466fda9ffd8045b84748e0ec785700bce248989,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/discard_pooled.pkl,308425,ccd41055caca7fc5c7b0d8ea4f332f7b5bb70958f197e7db7d0f30a13dde2029,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/tohand_canon.pkl,225582,4b5d0480a04809caee66db4d945a929bb14fc0f98e181857f84d3620ed1b2bd8,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/tohand_matsuda.pkl,226010,89d02649c6ec703104510a7f156ba5e768afd6199ddfc0f4f24fcadb72674556,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/tohand_nomura.pkl,90589,f8cf06655bb5fd8c521cae8ce8dead1df20b240ab0fe6bd2c1550a51d3d79526,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/tohand_nomura2.pkl,478293,2f4753c13cc7b10cf5b169ded8f1e4ba9c09971324fd4f0df2eced94a3d545d0,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp050_archpri/data/tohand_pooled.pkl,1071646,bfe584112f795cce24e73f55607c26503d33a7292c8f336456b111227a9db461,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp056_tiebreak/data/ties_all.pkl,266347,7ebb9fadd31632af9e4eea971e38f010e7d1a625ddf01dcee655837902aa99aa,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp056_tiebreak/data/ties_switch.pkl,41754,3673114a95d913db688a85339cec880f593cfec03d10dfe4b1b4576147fe652a,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp056_tiebreak/data/ties_to_active.pkl,59502,367203d0154a0e7da9c60add6e91f15a3afd2245bba43b1e3a4846e19a36ccfd,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp056_tiebreak/data/ties_to_hand.pkl,155366,c3925ff58752e1f1f2c8eb57f09a1dfc030b7a278503826128891211c023ca56,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp083_scaleup/build_d28s/cg/weights_pure.pkl,57341649,3ea2f9c09be9dc45f6e0f05ca5905de648780acacfd2b6140c1f52bf34f1c6ea,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp083_scaleup/build_search/cg/weights_pure.pkl,57341649,902adec60a2fc8cee35669394b71e82edf0c281560f4b94b6790ac65d20a30dd,weights/pickle (not loaded)
+Jun-Morita/kaggle-ptcg-ai-battle,727f1f80e2,workspace/exp083_scaleup/build_v15s/cg/weights_pure.pkl,57341649,046ae88f70168076ad90930ab492f43beec02a76c90e7b0cc0e2bee6a4c0d284,weights/pickle (not loaded)
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,agents/sa/policy_net.npz,2201212,bba02a42a41dbfaf84898d3be56cb6823d115d94cb1d49d4d9ab7431bb577a10,weights (shapes inspected only)
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,agents/sa/value_net.npz,1560780,86c59516c7604ec05a0eec284cbef373031e1b1724ba2aaafb528190c2042104,weights (shapes inspected only)
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/lb/pokemon-tcg-ai-battle.zip,218138,1ab016ce4f0791c1061ac4b9279f6b89753a6b984150778527e23a837f37838c,leaderboard snapshot zip
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/lb2/pokemon-tcg-ai-battle.zip,190319,b6842c6ce429da54176e2c0b5080c6610c2a4fd5d09396b63a81e7e2ee024a01,leaderboard snapshot zip
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/lb3/pokemon-tcg-ai-battle.zip,190291,0a0d7a19bc53be91fb757cc4c7a314aa1df3fc8f925fd8e3052edc1b8178fc3a,leaderboard snapshot zip
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/lb4/pokemon-tcg-ai-battle.zip,192264,4ccdac7809d0a52ea492f82a32008b3dbc9854e0ac58473a5176928f6ca5d9e8,leaderboard snapshot zip
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/lb_e29/pokemon-tcg-ai-battle.zip,214896,f81ce21b1dead22911dd6c935cac7063e82089a4b96d992d8cc2c3eae5db6ecb,leaderboard snapshot zip
+SiamRahman29/pokemon-tcg-agent,6fcb5d0708,out/tmp/sa/policy_net.npz,2617307,3c79fb1a85bf27f5a931ce459914dbc2d1dae402763cebe9ce39d3e6ca29f1fd,weights (shapes inspected only)
+abhiiiesh/PTCG-AI-Battle-Challenge,39619ed2be,best_model.pt,13114677,1c775e625da6e6a65eb32eadb6cdb310af75b4511ac873d9d5005d09037bdddb,weights/pickle (not loaded)
+abhiiiesh/PTCG-AI-Battle-Challenge,39619ed2be,policy_net.pt,13115701,1f9e670d5276806480302e4dbad3044382515141a22f10634cbeab803b30052f,weights/pickle (not loaded)
+pckhoa206/kaggle_challenge_pokemon,5f4d209af8,model.onnx,25397,cf0a6c05808edf6566db0af066b3918029835fb5ccb711367aa7e0c3686c0621,weights
+rahulsiiitm/ptcg-rl-agent,e0b11f36d0,models/ppo_baseline.pth,240194,50a4dfa626952aa608f1ac6e3b1a231e18249222ac350adcb64b86756a316740,weights/pickle (not loaded)
+rahulsiiitm/ptcg-rl-agent,e0b11f36d0,models/ppo_weights.npz,3115018,a26d5ff18c066ae0e8f1f5862549e4fafde2085744a97efd0a31f08d6b8e5f17,weights (shapes inspected only)
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/fig01_engine_interface.svg,1505405,085cd32495852d405e372da5de932af6d29bcd6886e2567a14915eeed826f398,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/fig02_model_architecture.svg,1882553,f06e3c287f9370d32c63dc894cefe40c294cea6fc39035844f8a00d6e3f6fc3c,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab03_token_feature_groups.svg,82653,5217b60ba516452d634e9d42940ca2dbcb7afb3be5b2584b4083f003267d302a,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab04_option_card_references.svg,129249,ab9ab61f6d82782aa201a884d8d69547da313f1e7e3ccf917105b9ee29b38d11,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab05_token_limits.svg,93515,196f28e3f85ea9c6e76f4babe4fe53f5c97599a2a2ad90a3b05867e470714cd7,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab06_model_costs.svg,110661,2bbcb36412f32d61cadd1c0412258a45dc64be43f462cc1295cab59d356f9058,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab07_ppo_parameters.svg,67606,8d59f1532d07205c9f500da1fee37fe184eb6d0e02d13a3bf5f0971244d77764,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab08_archetype_statistics.svg,258468,5dbaf7f6e3bb04ad0e202b241b56bde10f2b8a009593578c119757ab67d8c442,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab09_arena_ranking.svg,231372,bb4785485128619bb3338bfe36cd86c21b3e1ff3d9eb31e41ea673fe22adf7be,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab14_deck_replacements.svg,57233,cb2e241bdef1a499ede2168c81143dcc06acd88656036550eeafede9289af328,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab15_training_history.svg,137087,3aa2f076dec09e8f600bcd7a01ae77d8bac26a5d2bcf03c521687a95df3e6770,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab16_candidate_decklists.svg,140878,c8b35125c73b7c82043938e3439c339cbbce616a6827cc84deaca8a7090a912c,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/tab17_evaluation_win_rates.svg,259004,33b0fbf574296f7bfa39b28b40dd06538f81c1b42392dca42934a77b5592d01b,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/fig01_engine_interface.png,1121858,a10461133b16a7430c8ad1761ef159224ea3c190063844571e7933b8fd1086c9,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/fig02_model_architecture.png,1403590,222383be8037e9ef65d14714d6c07899e12beb235d5814b8cc81273e5cbf9a48,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab03_token_feature_groups.svg,67432,7c921dcdb5ecbc1c3ef4d647e528d61e2cca0b9b5b519c8a32f5bb9040802af7,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab04_option_card_references.svg,115323,770dcc9d0e283130af4a4bb90bcd325a3f971219073171f6a894f181b49e0c2d,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab05_token_limits.svg,84376,28093e4ecc5ff99f7f5d44d46c8c620c6a5e6ec3d60327ad85514fe0e1e8c02f,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab06_model_costs.svg,96242,ee454cc6ee6ccc82bb2f7c96573a589cb129e29e4e5e85b9e980b200033d0581,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab07_ppo_parameters.svg,55862,f46abcf3e659d270d085b121c3d7e15bc5deb71cf309d5a1287546ecb4303ebf,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab08_archetype_statistics.svg,247289,89463a88707ad763b4923445a881b6bc79f6468383d45060d9c6ee19d26dc2a4,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab09_arena_ranking.svg,220642,c0ee146f5c904801e99f309be7e89afd3cae96de04f8301e71ad4e502b92ef89,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab14_deck_replacements.svg,42968,aff1d062eacc4706e96b9ad6982c9983028124e2b66911a5549643ce27657a78,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab15_training_history.svg,122391,36d72b6348be8c988132e521c8c0b38e465658ad6b3caebba8f7286ffc1c93c9,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab16_candidate_decklists.svg,125080,55338d96a6aa78db9ed12c5329a86a1141a43f2955bd4a9c0a14375d855849d4,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/figs/uncaptioned/tab17_evaluation_win_rates.svg,245032,8e6f0083af7331f149fe6ad8d7de06cd5528344859f90325a059176486d5f5b4,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/supplements/decks.xlsx,85754,6d116cbf9870e83c5dcf6c36160dd0024bcdb1096acc4d20b5264d633dea530d,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/supplements/features_global.xlsx,13357,5c16eba70365deafcc292e063f675fd5eb02cb8733905303dfa714f2b8726ddb,evidence figure/spreadsheet
+yijieyuan/kaggle-pokemon-tcg,5b6d99c5a4,strategy-track/supplements/features_object.xlsx,19643,65326e3991a4d74a908c1923fef63396bd646a1a1af40a3d040bd031640ad00f,evidence figure/spreadsheet
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/attn_weights.npz,1412077,3186ec772fc8a8bc00a3076281055bbce553b374d9e23eb5f6495a291da65fd7,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_archaludon.npz,940163,6a074ec11f4505dd52d6a1f8885ed6892cd5cfcf9b896ce6e8a66633fab1f22b,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_crustle.npz,940160,c8851f6ff0396e153f8ccde585ccf40bb2020b5d6f930e48db355e6eb06f37cc,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_dragapult.npz,940312,e2a9366f77f6ac7817526418502ee8394357fa7f5c6467a03f8ac2a7edd2de27,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_grimmsnarl.npz,940237,1121ddedca09a3405070d37c4272d56b49a92b486a10e3db4c8148730ae70369,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_lucario.npz,940327,62adc9d1a3c7e7fd9f1800976badf6aa2de4619037cb9f37d9c9c566986e1ac0,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/opp_fam_rocket.npz,940167,b1b68c8369d18987e6339248ccd22ce68fda595fa25f47849da84cbbb7fc7270,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,agents/_v7f_a/weights.npz,939381,c69bcc886e05189ad7c832fb65ac5e3a7b2d96d6c1d518425e4f3a3343673137,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/attn_v7b/weights.npz,1433600,7a4a761e770f78b6a1e8f67c8ace34ecc6a0b97c1d63e36d685307a4c800906b,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_big/model.pt,3256524,902373fe1da94289845db1d40b731ce1a76c8037baf232ffa8a5537d18b383ca,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_f10/model.pt,1012428,9d32fbdba81d37ea82fe61e2f1e344d1682b51a93e565bbc7a022a332149c8c2,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_f100/model.pt,1012428,3d788ff2f0822d0a29a31d3c24801f2d8d22314924937684a4d408b0e13166d6,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_f100/weights.npz,938574,1933ed002371979d3aff657da44e5663d2a1ebdffd6f8eaa66e32fa4d4e1102e,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_f30/model.pt,1012428,ac75e33ddb1529df42bbb0c60be050656a3f9d8bafb63fb8a78739f78c697dcf,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_v3/model.pt,1012428,888199346e96f5e06d9397bf3f894c2e1b8caf287707bf6b7578bab8f8a2506d,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/imitation_v3/weights.npz,939360,3332af9dff55e602bad2d808302c06ec2d1734d2880850ee3460c5c0b3112155,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_mid/model.pt,1012428,96a4abf2185b720786df7c5fdeff4518e27b5c5c9c0721246b0f3e22204b2632,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_mid/weights.npz,935882,7023a8d0025df642e0ad56beb214e9e89ef2fd4efc039939d665dd6dd34ff213,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_top/model.pt,1012428,e9cd5680a78df23b4315edca24aa227afa3b6ef24a09f0a4b47c5100d37e84c7,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_top/weights.npz,938892,d6a6bef564ff6d2582b76c54df3dde57050145f73f775ec3e719cc95761d1a0e,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_v2/model.pt,1012428,8f16cf58eb44825e6a9359b1962f2f1a53c9bbd541ccbcc9b5890a4616c34daf,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/opponent_v2/weights.npz,939417,a5089163a4c15e80e8f8119c8e07a0271894097ff97cfd658bca419b1d3b2b67,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/oracle_v1/model.pt,1045196,4bf3d5cdf556a6e5291a730e2e577b6cf40090e0ab6038ee274e7244399ea9c1,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/prior_crustle/model.pt,1012428,4ced473b049a2c1d83861d2c0d4a8f0c1dfd66eab699edff3d7212a96e59149e,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/prior_crustle/weights.npz,939381,c69bcc886e05189ad7c832fb65ac5e3a7b2d96d6c1d518425e4f3a3343673137,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/prior_rocket/model.pt,1012428,3ee29f054d1faa128bed99affa74a9727217961547f1f0fa94844cd6991771fb,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/prior_rocket/weights.npz,939359,a531c41d60b4fdfe83f62ce950dfda6a0602714f67088f39623050a54df7bf0e,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/selfplay_clean_v1/model.pt,1012428,ddf5fbe4b25c555501348390f7f104d9f2dfcbc0c8c2149bc4cad3da8653d8ea,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/selfplay_clean_v1/weights.npz,939022,7b1d5662863a00da222e816937da75755b41c69ced1eb9b15967edfc7662a618,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/selfplay_clean_v2/model.pt,1012428,e5f0c6d123fc7492edde3ef0654347bd0cc5ab3bbc1410af4414f40872bbe9db,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/selfplay_clean_v2/weights.npz,939115,d735a76e557f8b6bbd9f517a81f55e6bc561da9f9f6279eb8da29a9746132aaa,weights (shapes inspected only)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/smoke/model.pt,1012428,5136490f7e8bd51da78e03b21f67c41d85d52be3645c1cb45da9cbaa11e82f0f,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/student_v1/model.pt,1012428,7fec4648966499ddec863c8b858657106c32ff6090a46389dace5d7318ae9ea3,weights/pickle (not loaded)
+ApexBlue11/pokemon-tcg-ismcts-agent,7e5c79f990,models/student_v1/weights.npz,938501,211b014838f8e6420449d04fc5fd63bfd33f18875e244e6cd89c38e28ea634c8,weights (shapes inspected only)
+CAB314/ptcg-ai-battle-agent,b9d461a800,agents/hydrapple_k2/cards.npz,23313,4920f4327a6a7159a7369688854fd1bb7080d74014f2b2c804f1b8163fb87cc7,weights (shapes inspected only)
+CAB314/ptcg-ai-battle-agent,b9d461a800,agents/hydrapple_k2/weights.npz,2615336,0525ac154a0ed9f9097ac671f9c3427828d67eff0a57f1dd33b0c8b9758e26ff,weights (shapes inspected only)
+CAB314/ptcg-ai-battle-agent,b9d461a800,agents/kangaskhan_dh/cards.npz,23313,4920f4327a6a7159a7369688854fd1bb7080d74014f2b2c804f1b8163fb87cc7,weights (shapes inspected only)
+CAB314/ptcg-ai-battle-agent,b9d461a800,agents/kangaskhan_dh/weights.npz,2615104,876db49cb4bd263a22cc45160d212c91a125d813d459777983989d5081bddce0,weights (shapes inspected only)
+Gabriel-notme/ptcg-ai-battle-journey,17c24de705,agent/cg/gbdt.pkl,19137347,7fb5e2652fe33dcb03cff57dd977f952b9dc5f4b33ee19eec81c07a7b79a1dbf,weights/pickle (not loaded)
+Gabriel-notme/ptcg-ai-battle-journey,17c24de705,variants/r6/gbdt.pkl,20291791,8c926f2e63c894f4f578b22e35eff899cc009fa8faf131b444a5b7cc5a90dd84,weights/pickle (not loaded)
+YoInaOwO/pokemon-tcg-ai-battle-9th,b4b037c81d,models/hydra15038_model_weights.zip,28956640,1cf3775cb9aa75350210ed95b3b14b9f259acc172a3e98f5eff1d9aac0bd5b19,weights archive
+dipamc/kaggle-ptcg-ai-battle,a176778d99,data/embed_pca.npz,1175538,6fe05f194e2bd862efc58b74d507010d5af50cabbbc3330c9585642f67848404,weights (shapes inspected only)
+dipamc/kaggle-ptcg-ai-battle,a176778d99,submission/data/embed_pca.npz,1175538,6fe05f194e2bd862efc58b74d507010d5af50cabbbc3330c9585642f67848404,weights (shapes inspected only)
+dipamc/kaggle-ptcg-ai-battle,a176778d99,submission/model.pt,19534121,959b220daf6777f45ad5d6aa14c35d3274bf3958ed502c7551679453e5f4aaea,weights/pickle (not loaded)
+horno1337/ptcg-agent,a2e28936d7,agent/alakazam_card_weights.npz,765154,ff1dcd7cda863bbb5e8a924fb25dc091328444823ff3962152246b9d52562157,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/alakazam_main_weights.npz,765154,e4856bb6a021c3a4c36d6b8116d55128f0036e6361138942fd2944016708606b,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/dragapult_card_weights.npz,765154,135696e3a5b080f1a3b7bee4bb882f12a0dfbefc1d43a7cd3913b29c571781df,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/dragapult_elite_card_weights.npz,765154,1a9b3867e81e791e35d68f0a147b9c338162ed707e5657633a06ff867cdb9d43,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/dragapult_elite_main_weights.npz,765154,793b230dbf9c67c3ece2b53b3f1a8b0f284765830ec397c6b746b35db2f966e0,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/dragapult_main_weights.npz,765154,6e2183c318e0b41753aa629ffce61706332628740e22613f4120967e0ebb2e55,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/lucario_card_weights.npz,765154,ab33e7b706701dad82a5ce74d2ffba9fda46ee5085d479f22c2bbe08ab714e14,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/lucario_elite_main_weights.npz,765154,bbc77e95f9c2184a118d4a7d9b537f58e604e3f267e517f5080817d7129e5d5b,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/lucario_main_weights.npz,765154,ca415c6de9cedf4060092160d1fa755120d50f83352994feb3e7e35ebbb24d78,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/md_v1_weights.npz,765154,5784b7ea693d2adc3a8cf0b7422b6940481042181051ef2941b982094dabe78c,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/md_v2_card_weights.npz,765154,1aef7068130072dd00afe0e85d6485d9749c6326351597339c1bd33d6d239cf7,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/qu_v2c_canary_weights.npz,15458793,fc8716468b84b99ba76cfd74781dcb4170a39c30d36524b50fc780c0b3c1b701,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,agent/weights.npz,765154,ec69a2db7660c38e6623e9711ed910718c650780a020369148836d40119a8447,weights (shapes inspected only)
+horno1337/ptcg-agent,a2e28936d7,tools/baselines/qu-v1-weights.npz,718360,4ce6522f2b825165a56e4c3a086ef4f420cff53fab56d530dfa19cccd10ba033,weights (shapes inspected only)
+kento-umeda-biz/kaggle-ptcg-solution,929545fe6c,src/solution/card_attrs.pt,68798,07196b61026614bca40babc52184b3701d9f2df0e51980c1943b422bc40be99f,weights/pickle (not loaded)
+lamanbo22/Kaggle-pokemon-tcg-agent,f5f014df5a,candidate_policy.pt,26323593,5364a2abaee0e425fd6595f89825765d11e2602d96a32a7ef7c42b4233348dbc,weights/pickle (not loaded)
+lamanbo22/Kaggle-pokemon-tcg-agent,f5f014df5a,opponent_routed_policy.pt,26331997,d14b5c992c36a1af5a10afa196102be46f8a5db8317666c03fea3b241c4524d7,weights/pickle (not loaded)
+squidistaken/pokemon-tcg-ai,12aa129479,tests/fixtures/card_tables.pt,211525,17be3b4ea57ace56c3d0e9f492ee306b4cfa9df7ec9350740f78ae7698a96302,weights/pickle (not loaded)
+squidistaken/pokemon-tcg-ai,12aa129479,tests/fixtures/observations.pt,304573,92b57553dfab6221495f3802905af0bc56e05594b308ea2dbbca377480e16681,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/d7/m_kawr.pt,527630,06f67c4a4eaf2fd4d1f1ba162a3b35a617e4ab7ef6ca31005ca51e7881127b84,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/d7/m_kawrgold.pt,527254,46529767e26d710d89fd4cd7e903c1f7e428b6bfe4dfc8124ec035996fe3a8b0,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/d7/m_kawrshaped.pt,527546,732f31546895ee32c81a07544cf6235fb5be2edd379854f2a1dbf1b6cc105ab6,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/d7/m_kiql.pt,527310,864ca26b914f340f05462d4c4b6e9d08ef0abeed5766e49aa90dbb58b4d01d1c,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/e60/m_kawr.pt,561101,633a36b1f63c8b13c1c58f24f22e4ba8b865726b0b8701143f2c6cc22c563c7f,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/e60/m_kawrgold.pt,560813,e69fb509a5d0f5dab0a342fe501a956941bf10c7f9018bd95d490d243585bb96,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/e60/m_kawrshaped.pt,561117,2f472ab4e0631999479b2aa60c35ef973b58897aa2888e3f492abc4f3d5411a5,weights/pickle (not loaded)
+taichiiiiiiii/PTCG-AI-Battle-Challenge-Simulation-public,fba3bac050,final/models/e60/m_kiql.pt,661265,ace734ef936b9062bfdeb1f2467dfa84c1e54ee1ea855fafb0f9341dd6443793,weights/pickle (not loaded)
+wrqdoc/PokemonTCG-Kaggle,e2bf28c4e8,agent/model.pt,7493979,1433597ea865006c80c908251c1e758c9b05e5d63444b7c85c4556a0bf79dc60,weights/pickle (not loaded)
