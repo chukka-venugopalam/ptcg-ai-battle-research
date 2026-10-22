@@ -1,0 +1,5 @@
+agent,startup_ready,card_1300_fallback_delta,card_1300_legal,card_1431_fallback_delta,card_1431_legal,attack_1600_fallback_delta,attack_1755_fallback_delta,final_fallbacks,final_net_missing
+candidate,True,0,True,0,True,0,0,0,0
+Bv1,True,1,True,1,True,0,0,2,0
+B2,True,1,True,1,True,0,0,2,0
+Bv2,True,1,True,1,True,0,0,2,0

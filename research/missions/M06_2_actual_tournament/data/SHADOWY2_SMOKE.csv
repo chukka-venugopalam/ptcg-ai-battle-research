@@ -1,0 +1,3 @@
+game_id,pair,seat0_agent,seat1_agent,winner_index,winner_agent,selects,selects_seat0,selects_seat1,illegal_actions,action_errors,engine_error,elapsed_s,seat0_fallbacks,seat1_fallbacks,seat0_calls,seat1_calls,seat0_first_error,seat1_first_error,deck0_hash,deck1_hash,traceback
+1,candidate_vs_candidate_shadowy2,candidate,candidate_shadowy2,0,candidate,171,101,70,0,0,,0.797,0,0,102,71,,,4e39b2aaa4dcfee32de65c5a7109f1128163c5b2b5db7484fff885a81142f6c1,693207b1121ef399d2b9a383dd968d03e11cdacb822d90f741d1645a321a7645,
+2,candidate_vs_candidate_shadowy2,candidate_shadowy2,candidate,1,candidate,268,104,164,0,0,,0.9509,0,0,105,165,,,693207b1121ef399d2b9a383dd968d03e11cdacb822d90f741d1645a321a7645,4e39b2aaa4dcfee32de65c5a7109f1128163c5b2b5db7484fff885a81142f6c1,

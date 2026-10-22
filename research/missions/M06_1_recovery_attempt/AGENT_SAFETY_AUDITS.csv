@@ -1,0 +1,5 @@
+agent,status,matches,completed,illegal,exceptions,fallbacks,p99_agent_s,overage_used_s,rss_mb,note
+candidate_R2_compat,NOT RUN,0,,,,,,,,archive not in sandbox
+Bv1,NOT RUN,0,,,,,,,,archive not in sandbox
+B2,NOT RUN,0,,,,,,,,archive not in sandbox
+Bv2,NOT RUN,0,,,,,,,,archive not in sandbox

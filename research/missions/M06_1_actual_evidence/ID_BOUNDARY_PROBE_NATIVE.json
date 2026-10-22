@@ -1,0 +1,362 @@
+{
+  "candidate": {
+    "startup": {
+      "ready": true,
+      "deck": 60,
+      "health": "[health] OK calls=1 fallbacks=0 net_missing=0 deck=1"
+    },
+    "tests": {
+      "raw_card_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0,
+          1,
+          2
+        ],
+        "first_error": null
+      },
+      "card_1300_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": null
+      },
+      "card_1431_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          2
+        ],
+        "first_error": null
+      },
+      "raw_attack_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": null
+      },
+      "attack_1600": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": null
+      },
+      "attack_1755": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": null
+      }
+    },
+    "final": {
+      "stats": {
+        "calls": 7,
+        "fallbacks": 0,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": null,
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] OK calls=7 fallbacks=0 net_missing=0 deck=1"
+    }
+  },
+  "Bv1": {
+    "startup": {
+      "ready": true,
+      "deck": 60,
+      "health": "[health] OK calls=1 fallbacks=0 net_missing=0 deck=1"
+    },
+    "tests": {
+      "raw_card_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0,
+          1,
+          2
+        ],
+        "first_error": null
+      },
+      "card_1300_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "card_1431_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "raw_attack_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1600": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1755": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      }
+    },
+    "final": {
+      "stats": {
+        "calls": 7,
+        "fallbacks": 2,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n",
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] DEGRADED calls=7 fallbacks=2 net_missing=0 deck=1 first_error='Traceback (most recent call last):\\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/bcagent.py\", line 480, in __call__\\n    picked = net.choose(obs)\\n  File \"/mnt/data/m61_actual_out/agents/Bv1/sa/policyn'"
+    }
+  },
+  "B2": {
+    "startup": {
+      "ready": true,
+      "deck": 60,
+      "health": "[health] OK calls=1 fallbacks=0 net_missing=0 deck=1"
+    },
+    "tests": {
+      "raw_card_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0,
+          1,
+          2
+        ],
+        "first_error": null
+      },
+      "card_1300_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "card_1431_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "raw_attack_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1600": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1755": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      }
+    },
+    "final": {
+      "stats": {
+        "calls": 7,
+        "fallbacks": 2,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\n    picked = net.choose(obs)\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n",
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] DEGRADED calls=7 fallbacks=2 net_missing=0 deck=1 first_error='Traceback (most recent call last):\\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/bcagent.py\", line 480, in __call__\\n    picked = net.choose(obs)\\n  File \"/mnt/data/m61_actual_out/agents/B2/sa/policynet'"
+    }
+  },
+  "Bv2": {
+    "startup": {
+      "ready": true,
+      "deck": 60,
+      "health": "[health] OK calls=1 fallbacks=0 net_missing=0 deck=1"
+    },
+    "tests": {
+      "raw_card_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0,
+          1,
+          2
+        ],
+        "first_error": null
+      },
+      "card_1300_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "card_1431_network_path": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 1,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "raw_attack_context": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1600": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      },
+      "attack_1755": {
+        "ok": true,
+        "legal": true,
+        "fallback_delta": 0,
+        "net_missing_delta": 0,
+        "action": [
+          0
+        ],
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n"
+      }
+    },
+    "final": {
+      "stats": {
+        "calls": 7,
+        "fallbacks": 2,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": "Traceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/symavg.py\", line 129, in sym_scores\n    base = net.scores(obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 235, in scores\n    return self._forward(obs)[0]\n           ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 478, in __call__\n    picked = self._sym_choose(net, obs)\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 411, in _sym_choose\n    return net.choose(obs)\n           ~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 265, in choose\n    sc, srepr = self._forward(obs)\n                ~~~~~~~~~~~~~^^^^^\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/policynet.py\", line 168, in _forward\n    oenc[i, ow:ow + emb] = self.card_emb[self._m(\"card_emb\", cid)]\n                           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 1300 is out of bounds for axis 0 with size 1300\n",
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] DEGRADED calls=7 fallbacks=2 net_missing=0 deck=1 first_error='Traceback (most recent call last):\\n  File \"/mnt/data/m61_actual_out/agents/Bv2/sa/bcagent.py\", line 404, in _sym_choose\\n    sc = symavg.sym_scores(net, obs, self.sym_k, self._sym_rng)\\n  File \"/mnt/dat'"
+    }
+  }
+}

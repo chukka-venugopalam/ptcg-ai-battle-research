@@ -1,0 +1,21 @@
+# Private inputs and external bundles (the downloadable workspace zip may include them, but Git never tracks them)
+local_data/
+private_inputs/
+*.kaggle
+kaggle.json
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local runs
+runs/
+outputs/tmp/
+*.log
+.DS_Store
+Thumbs.db

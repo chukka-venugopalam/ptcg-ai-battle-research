@@ -1,0 +1,61 @@
+{
+  "bundle": "PTCG_MISSION_6_2_ACTUAL_EVIDENCE_2026-10-20.zip",
+  "bundle_sha256": "cc2731b6cf68d759c86cc1f495e42f62d8ef81d1f240473d87797571c7e5b9a3",
+  "files": [
+    {
+      "path": "PTCG_MISSION_6_2_ACTUAL_TOURNAMENT_REPORT_2026-10-20.md",
+      "size_bytes": 7827,
+      "sha256": "62bf9456fa5fe37a7ec13de67763c84b283b2eb73b73d7dc309b82ba2dfbc188"
+    },
+    {
+      "path": "README.txt",
+      "size_bytes": 1062,
+      "sha256": "94ef79dba85db095614c028ef78115312fdd6a509bfa0b0fe72e7aea41ae49ad"
+    },
+    {
+      "path": "data/COUNTER_SOURCE_CONFIRMATION_FINAL.csv",
+      "size_bytes": 26032,
+      "sha256": "62e975e075a731c0fe584efc5a859b0099ebcee3785455d84ed66593799a040e"
+    },
+    {
+      "path": "data/SHADOWY2_CONFIRMATION.csv",
+      "size_bytes": 25180,
+      "sha256": "d0bfe48001ba7ae769d2c3ac77e38a3649ab24216b546571698c215d198e1698"
+    },
+    {
+      "path": "data/SHADOWY2_SMOKE.csv",
+      "size_bytes": 764,
+      "sha256": "65564513926f4eb561109f76acf1232dbb1fde08d939ad339085e3273c7e1c9a"
+    },
+    {
+      "path": "data/TOURNAMENT_SCREENING_FINAL.csv",
+      "size_bytes": 28840,
+      "sha256": "e01a6a744aa92495770486f0c60fec97c2a124b7da37324a5e4117db3201563a"
+    },
+    {
+      "path": "next_mission/PTCG_MISSION_7_META_AND_DECK_UPGRADE.md",
+      "size_bytes": 9355,
+      "sha256": "4b6e277e2f43f2d364cda48c1dbefa7a7aeda9f009b0f45fb0606e471c2b0114"
+    },
+    {
+      "path": "prior_review/MISSION_6_1_ACTUAL_REVIEW_2026-10-18.md",
+      "size_bytes": 6035,
+      "sha256": "a8ea3cab4eb600395c33757fd67ab42c767021f6841ee1890749f241e82d472b"
+    },
+    {
+      "path": "prior_review/MISSION_6_1_NATIVE_SMOKE_AND_ID_PROBE.csv",
+      "size_bytes": 324,
+      "sha256": "740a4023774d9ccdd5ab94b00b005350b5b2d0acee91954f6ddd2a13a2515814"
+    },
+    {
+      "path": "supporting_scripts/run_tournament_deck.py",
+      "size_bytes": 10272,
+      "sha256": "c44f150184dcd9f75c98138bb2b6867e442b41540602b341c8ccaf953134f184"
+    },
+    {
+      "path": "supporting_scripts/run_tournament_writeonce.py",
+      "size_bytes": 10222,
+      "sha256": "faaa8ed422085458d34c1d36865f10468b86a5bb2eebb524cc0f0970b27a0a4c"
+    }
+  ]
+}

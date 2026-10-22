@@ -1,0 +1,9 @@
+observed_period,display_name,score,source_status,archive_hash_mapping,interpretation
+historical,submission.tar.gz,826.0,reported in prior research,unresolved,Historical score only; not a verified current rating
+historical,Bv1 backup,813.5,reported in prior screenshot/context,unresolved,Historical reading; separate score observations are preserved independently
+historical,Bv1 backup,769.4,reported in a different prior screenshot/context,unresolved,Historical reading; do not reconcile without submission identity and episode history
+historical,B2 counter_source,789.9,reported in prior research,not independently rechecked,Not a current rating
+historical,Bv2 sym_k=8,781.6,reported in prior research,not independently rechecked,Not a current rating
+historical,Archaludon clean-room R12,528.2,reported in prior research,unresolved,Low historical result; root cause not established
+historical,Archaludon clean-room R12,530.7,reported in a later prior context,unresolved,Separate historical observation; not a verified current rating
+2026-10-16,submission.tar.gz,780.4,screenshot observation,unresolved,The screenshot is historical; do not infer today’s live rating

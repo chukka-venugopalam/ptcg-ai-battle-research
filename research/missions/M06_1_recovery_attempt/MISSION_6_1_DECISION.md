@@ -1,0 +1,5 @@
+# MISSION_6_1_DECISION — **C: blocked by one precisely named environment issue**
+**Issue:** `/mnt/user-data/uploads/PTCG_MISSION_6_INPUTS_BUNDLE.zip` and `/mnt/user-data/uploads/MISSION_6_OUTPUT.zip` do not exist in the sandbox (`No such file or directory`); a filesystem-wide search found no file with any bundle, manifest, agent or R2-package name. The preflight stopped at that path (`INPUT_PREFLIGHT.md`), as the brief prescribes. Mission 6's "not received" is therefore now a shown open failure, not a repeat assertion.
+**Not done, because it needs your bytes:** manifest/hash verification, safe extraction, diffs, SDK wrapper comparison, ID-boundary tests on your agents, deck/cold-start audits, any real-agent BO3 match (header-only match CSVs).
+**Done instead:** a one-command pipeline for exactly these steps, validated on a synthetic bundle (`HARNESS_VALIDATION_ONLY.md`), plus `RUN_ON_YOUR_MACHINE.md`, which lets you run Phase A/B locally and send back only small report files.
+**No upload. No candidate. No claim about the rating decline, the agents, or R2 equivalence.** Preserve all baselines.

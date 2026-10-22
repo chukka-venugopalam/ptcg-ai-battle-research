@@ -1,0 +1,6 @@
+archive_name,sha256,provenance,tracked_location,notes
+submission_R2_compat_2026-10-15.tar.gz,0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a,available in prior saved library artifact,submissions/archive/2026-10-15_R2_compat.tar.gz,Exact compatibility reference; same bytes as today’s candidate
+submission_B2_counter_source_grimmsnarl.tar.gz,b61ed901d778ac23647dc2be97a13770e632c2e62b7a6d289508ddf6910baea8,available archive in Mission 6 input bundle,submissions/archive/2026-10-06_B2_counter_source.tar.gz,Counter-source flag enabled
+submission_Bv2_sym8_ready.tar.gz,169e1ac85e9edba28ccf19ff99e244c2016712096e7cdb0aab69cf9e0574318c,available archive in Mission 6 input bundle,submissions/archive/2026-10-06_Bv2_sym8.tar.gz,Symmetry k=8 variant
+Bv1_baseline_local_archive.tar.gz,7ea11c6181f1b68ff23a97311998901b66b3ab5e7bcd1371e3d46b7d0c9d4feb,available archive in Mission 6 input bundle,submissions/archive/Bv1_baseline_local_archive.tar.gz,Hash verifies the available local baseline archive; exact live submission date unresolved
+legacy_submission_from_files_bundle.tar.gz,59e161aa8da41071fa880b15cc27b8a0b9a86079f5f6a10de8302d70138c9c2e,embedded in files.zip,submissions/archive/legacy_submission_from_files_bundle.tar.gz,Unknown date/score mapping; do not assign it to a Kaggle submission without extra provenance

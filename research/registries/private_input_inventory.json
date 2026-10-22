@@ -1,0 +1,38 @@
+[
+  {
+    "path": "local_data/private_inputs/PTCG_MISSION_7_INPUTS_BUNDLE.zip",
+    "sha256": "a26fe9b422ad0519161bdf01e5aa37e28d3f48276bed79912fcff7a442241384",
+    "bytes": 22984445,
+    "git_tracked": false
+  },
+  {
+    "path": "local_data/private_inputs/mission5_evidence_audit.md",
+    "sha256": "63544fa6681fbf11fd560d676b117c8f1d48306ab4574fdb044d9c394d4abb8f",
+    "bytes": 12335,
+    "git_tracked": false
+  },
+  {
+    "path": "local_data/private_inputs/official_playground_bundle_R2.zip",
+    "sha256": "6fe557e77ca21b86dea9056d7f4531cbeb328abc1b25aecf9c3a4e2b7d5b2c87",
+    "bytes": 2794645,
+    "git_tracked": false
+  },
+  {
+    "path": "local_data/private_inputs/ptcg-ai-battle-research-with-Bv2-submission-2026-10-06.zip",
+    "sha256": "439ca3fe0e0614c2d250fec0607d79137d5d03a826d7fcde58e8880d3af5746d",
+    "bytes": 7320788,
+    "git_tracked": false
+  },
+  {
+    "path": "local_data/private_inputs/ptcg-ai-battle-research.zip",
+    "sha256": "4d054ec32ed4b5fbb5a1953212f72d54af59a821c40aa0d7b3a4c34c7ee96481",
+    "bytes": 7764493,
+    "git_tracked": false
+  },
+  {
+    "path": "local_data/private_inputs/submissions_screenshot_2026-10-16.png",
+    "sha256": "31ae9b3bf20f1398ed2b8a097f9401819a56ee679022e2e232f2d163586b1dff",
+    "bytes": 202789,
+    "git_tracked": false
+  }
+]

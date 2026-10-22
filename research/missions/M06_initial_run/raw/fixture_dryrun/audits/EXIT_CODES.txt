@@ -1,0 +1,2 @@
+fixture_first.tar.gz exit=0
+fixture_rand.tar.gz exit=0

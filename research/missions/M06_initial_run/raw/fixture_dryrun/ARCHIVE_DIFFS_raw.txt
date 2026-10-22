@@ -1,0 +1,6 @@
+
+=== raw/fixture_dryrun/bundle/fixture_first.tar.gz  vs  raw/fixture_dryrun/bundle/fixture_rand.tar.gz
+  only in A: []
+  only in B: []
+  identical files: 1   changed: ['main.py']
+  [main.py] +2/-1 lines; constants changed: none

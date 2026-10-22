@@ -1,0 +1,6 @@
+archive,expected_sha256,found,sha256,size,safety_gate,status
+latest_candidate_R2_compat.tar.gz,0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a (from brief),NO,,,,UNKNOWN: not received
+Bv1 baseline archive,,NO,,,,UNKNOWN: not received
+B2 counter-source archive,,NO,,,,UNKNOWN: not received
+Bv2 sym8 archive,,NO,,,,UNKNOWN: not received
+submission_archaludon_cleanroom_r12.tar.gz,,NO,,,,UNKNOWN: not in handoff by design; do not reconstruct

@@ -1,0 +1,27 @@
+# raw evidence 2026-10-18T04:28:45Z
+## ls -la /mnt/user-data/uploads
+total 268
+drwxr-xr-x 1 claude ubuntu      0 2026-10-18 04:17:20.733317504 +0000 .
+drwxr-xr-x 5 root   root     4096 2026-10-16 02:54:31.152261823 +0000 ..
+-rw-r--r-- 1 claude ubuntu  12335 2026-10-15 12:06:14.828933000 +0000 PTCG_MISSION_5_EVIDENCE_AUDIT.md
+-rw-r--r-- 1 claude ubuntu  12335 2026-10-16 02:54:13.685583000 +0000 PTCG_MISSION_5_EVIDENCE_AUDIT_1.md
+-rw-r--r-- 1 claude ubuntu 110272 2026-10-15 12:06:15.297327000 +0000 pokemon_mission_3.zip
+-rw-r--r-- 1 claude ubuntu 110272 2026-10-16 02:54:17.335239000 +0000 pokemon_mission_3_1.zip
+-rw-r--r-- 1 claude ubuntu   7105 2026-10-15 12:06:14.983043000 +0000 pokemon_mission_4.zip
+-rw-r--r-- 1 claude ubuntu   7105 2026-10-16 02:54:15.891416000 +0000 pokemon_mission_4_1.zip
+## exact expected paths
+ls: cannot access '/mnt/user-data/uploads/PTCG_MISSION_6_INPUTS_BUNDLE.zip': No such file or directory
+ls: cannot access '/mnt/user-data/uploads/MISSION_6_OUTPUT.zip': No such file or directory
+## sha256 of every file present
+63544fa6681fbf11fd560d676b117c8f1d48306ab4574fdb044d9c394d4abb8f  /mnt/user-data/uploads/PTCG_MISSION_5_EVIDENCE_AUDIT.md
+63544fa6681fbf11fd560d676b117c8f1d48306ab4574fdb044d9c394d4abb8f  /mnt/user-data/uploads/PTCG_MISSION_5_EVIDENCE_AUDIT_1.md
+aeaf7281d83f5c0017bf89709252e6c86f0754306d9d588f2ff7d0972ea60417  /mnt/user-data/uploads/pokemon_mission_3.zip
+aeaf7281d83f5c0017bf89709252e6c86f0754306d9d588f2ff7d0972ea60417  /mnt/user-data/uploads/pokemon_mission_3_1.zip
+697d7b9897d99d6cdc3b3ec005b6620547dc8ad507f240a060fee084e5a157ef  /mnt/user-data/uploads/pokemon_mission_4.zip
+697d7b9897d99d6cdc3b3ec005b6620547dc8ad507f240a060fee084e5a157ef  /mnt/user-data/uploads/pokemon_mission_4_1.zip
+## find / -iname (zip|tar.gz|tgz|tar) outside venv/proc/usr/tmp/my work dirs
+(none other than the above)
+## find by name
+(end)
+## files >3MB modified in last 24h outside venv/usr/var/proc
+(end)

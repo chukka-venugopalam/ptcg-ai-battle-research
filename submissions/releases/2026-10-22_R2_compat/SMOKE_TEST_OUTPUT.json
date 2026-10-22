@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "archive": "submissions/current/submission.tar.gz",
+  "sha256": "0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a",
+  "deck_len": 60,
+  "unique_card_ids": 19,
+  "native_game_result": 1,
+  "actions": 158,
+  "actions_by_seat": [
+    66,
+    92
+  ],
+  "elapsed_seconds": 4.07,
+  "fallback_or_missing_network_failures": [],
+  "per_agent_stats": [
+    {
+      "stats": {
+        "calls": 67,
+        "fallbacks": 0,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": null,
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] OK calls=67 fallbacks=0 net_missing=0 deck=1"
+    },
+    {
+      "stats": {
+        "calls": 93,
+        "fallbacks": 0,
+        "net_missing": 0,
+        "deck_returns": 1,
+        "first_error": null,
+        "flip_eligible": 0,
+        "flips": 0,
+        "fetch_seen": 0,
+        "fetch_fired": 0,
+        "fetch_diff": 0,
+        "x_fired": 0,
+        "x_diff": 0,
+        "x_skip": 0,
+        "x_error": 0
+      },
+      "health": "[health] OK calls=93 fallbacks=0 net_missing=0 deck=1"
+    }
+  ],
+  "oov_probe": {
+    "status": "PASS",
+    "embedding_rows": {
+      "card_emb": 1300,
+      "atk_emb": 1600
+    },
+    "probes": {
+      "card_1300": 0,
+      "card_1431": 0,
+      "attack_1755": 0
+    }
+  },
+  "interpretation": "Operational smoke test only; one self-play game is not evidence of a stronger win rate or live rating.",
+  "run_date": "2026-10-22",
+  "command": "python tools/smoke_test_submission.py submissions/current/submission.tar.gz",
+  "source_sha256": "0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a"
+}

@@ -1,0 +1,6 @@
+archive,expected_sha256_from_brief,found,sha256,safety_findings,deck_legal_vs_R2_table,model_embedding_dims,status
+latest_candidate_R2_compat.tar.gz,0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a,NO,,,,,BLOCKED: file not in sandbox
+Bv1_baseline_local_archive.tar.gz,7ea11c6181f1b68ff23a97311998901b66b3ab5e7bcd1371e3d46b7d0c9d4feb,NO,,,,,BLOCKED: file not in sandbox
+B2_counter_source_grimmsnarl.tar.gz,b61ed901d778ac23647dc2be97a13770e632c2e62b7a6d289508ddf6910baea8,NO,,,,,BLOCKED: file not in sandbox
+Bv2_sym8_ready.tar.gz,169e1ac85e9edba28ccf19ff99e244c2016712096e7cdb0aab69cf9e0574318c,NO,,,,,BLOCKED: file not in sandbox
+official_playground_bundle_R2.zip,6fe557e77ca21b86dea9056d7f4531cbeb328abc1b25aecf9c3a4e2b7d5b2c87,NO,,,,,BLOCKED: file not in sandbox

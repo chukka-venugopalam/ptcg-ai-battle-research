@@ -1,0 +1,11 @@
+{
+ "kaggle_environments": "1.33.0",
+ "libcg_sha256": "c699020e086eede189c445c7abf9d891a60005ceec6eb91dccd5bbdcd3c0de22",
+ "card_count": 1431,
+ "card_id_range": [
+  1,
+  1431
+ ],
+ "card_table_sha256": "7fd6c45fcdc2913a1fe19ddb67c01aa9b204718cb760be7582cf4fcc3513de9c",
+ "cabt_bo_default": 3
+}

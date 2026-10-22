@@ -1,0 +1,13 @@
+{
+  "release_date": "YYYY-MM-DD",
+  "release_name": "candidate-name",
+  "archive_filename": "submission.tar.gz",
+  "archive_sha256": "",
+  "model_weights_sha256": "",
+  "deck_sha256": "",
+  "deck_size": 60,
+  "strategy_changes": [],
+  "tests_run": [],
+  "strategic_strength": "NOT_ESTABLISHED",
+  "source_experiment_id": ""
+}

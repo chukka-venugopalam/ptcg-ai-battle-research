@@ -1,0 +1,3 @@
+archive,sha256,bytes,n_members,deck_n,deck_problems,engine_accepts_deck,card_table_sha256,entrypoint,cold_start_ok,first_call_returns_60,equals_deck_csv,has___file__,weights_max_deck_id,n_weight_arrays,safety_gate_passed
+fixture_first.tar.gz,8055e34bc94d24a9a443d1811c7b2cce97a912ee94fdeb074d7f97101eb2790c,413,2,60,,True,7fd6c45fcdc2913a1fe19ddb67c01aa9b204718cb760be7582cf4fcc3513de9c,agent,True,True,True,False,1262,0,True
+fixture_rand.tar.gz,9c65f4abcf223678fe68c8fae7d8838f4ed43f5a965f86a4400818c38a68ad70,422,2,60,,True,7fd6c45fcdc2913a1fe19ddb67c01aa9b204718cb760be7582cf4fcc3513de9c,agent,True,True,True,False,1262,0,True

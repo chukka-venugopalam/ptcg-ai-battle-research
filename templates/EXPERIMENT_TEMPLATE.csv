@@ -1,0 +1,1 @@
+experiment_id,date,baseline_hash,candidate_hash,hypothesis,primary_metric,opponent_pool,seeds,seat_balance,n_planned,n_completed,stopping_rule,result,ci_or_pvalue,failures,decision,notes

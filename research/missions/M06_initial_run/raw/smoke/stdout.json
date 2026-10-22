@@ -1,0 +1,116 @@
+{
+ "n_records": 40,
+ "bo3_rule_mismatches": 0,
+ "arms": {
+  "cand": {
+   "n_ok": 16,
+   "n_cand_fail": 0,
+   "n_excluded": 0,
+   "field": {
+    "score": 0.1875,
+    "lo": 0.0861783349127238,
+    "hi": 0.4117182984888496,
+    "n": 16
+   },
+   "cells": {
+    "first|seat0": [
+     0,
+     0,
+     4
+    ],
+    "first|seat1": [
+     0,
+     0,
+     4
+    ],
+    "rand|seat0": [
+     1,
+     0,
+     3
+    ],
+    "rand|seat1": [
+     2,
+     0,
+     2
+    ]
+   }
+  },
+  "ctrl": {
+   "n_ok": 16,
+   "n_cand_fail": 0,
+   "n_excluded": 0,
+   "field": {
+    "score": 0.75,
+    "lo": 0.5373245746352275,
+    "hi": 0.8734168043615365,
+    "n": 16
+   },
+   "cells": {
+    "first|seat0": [
+     3,
+     0,
+     1
+    ],
+    "first|seat1": [
+     1,
+     0,
+     3
+    ],
+    "rand|seat0": [
+     4,
+     0,
+     0
+    ],
+    "rand|seat1": [
+     4,
+     0,
+     0
+    ]
+   }
+  },
+  "h2h": {
+   "n_ok": 8,
+   "n_cand_fail": 0,
+   "n_excluded": 0,
+   "field": {
+    "score": 0.0,
+    "lo": 0.0,
+    "hi": 0.3464051324981956,
+    "n": 8
+   },
+   "cells": {
+    "control|seat0": [
+     0,
+     0,
+     4
+    ],
+    "control|seat1": [
+     0,
+     0,
+     4
+    ]
+   }
+  }
+ },
+ "cand_minus_ctrl": {
+  "diff": -0.5625,
+  "lo": -0.7221802662036607,
+  "hi": -0.25346168209860814,
+  "n_cand": 16,
+  "n_ctrl": 16
+ },
+ "gate": {
+  "stage": "screen",
+  "passed": false,
+  "reasons": [
+   "candidate cell ('rand', 0): < 10 matches",
+   "candidate cell ('rand', 1): < 10 matches",
+   "candidate cell ('first', 0): < 10 matches",
+   "candidate cell ('first', 1): < 10 matches",
+   "control cell ('rand', 0): < 10 matches",
+   "control cell ('rand', 1): < 10 matches",
+   "control cell ('first', 0): < 10 matches",
+   "control cell ('first', 1): < 10 matches"
+  ]
+ }
+}

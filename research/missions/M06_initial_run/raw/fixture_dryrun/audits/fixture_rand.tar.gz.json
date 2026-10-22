@@ -1,0 +1,231 @@
+{
+ "archive": "/home/claude/m6/out/raw/fixture_dryrun/bundle/fixture_rand.tar.gz",
+ "audit_started": "2026-10-17T02:50:00Z",
+ "tool": "submission_audit.py",
+ "note": "engine-run sections use whatever kaggle-environments is installed here",
+ "archive_report": {
+  "path": "/home/claude/m6/out/raw/fixture_dryrun/bundle/fixture_rand.tar.gz",
+  "sha256": "9c65f4abcf223678fe68c8fae7d8838f4ed43f5a965f86a4400818c38a68ad70",
+  "bytes": 422,
+  "problems": [],
+  "warnings": [],
+  "members": [
+   {
+    "name": "main.py",
+    "size": 378,
+    "type": "file"
+   },
+   {
+    "name": "deck.csv",
+    "size": 191,
+    "type": "file"
+   }
+  ],
+  "uncompressed_bytes": 569
+ },
+ "files": [
+  {
+   "path": "deck.csv",
+   "bytes": 191,
+   "sha256": "1156379af39e71bc83eecb50d1e04c5cc480501d293621fcc89c2d355d99be78"
+  },
+  {
+   "path": "main.py",
+   "bytes": 378,
+   "sha256": "b2d881b790b3c761029cae53008fd25d1735cac67d1d126eaf8ea21a5e39b5e6"
+  }
+ ],
+ "deck_audit": {
+  "n": 60,
+  "table": [
+   {
+    "count": 33,
+    "id": 3,
+    "name": "Basic {W} Energy"
+   },
+   {
+    "count": 4,
+    "id": 722,
+    "name": "Snover"
+   },
+   {
+    "count": 4,
+    "id": 723,
+    "name": "Mega Abomasnow ex"
+   },
+   {
+    "count": 4,
+    "id": 1219,
+    "name": "Team Rocket's Petrel"
+   },
+   {
+    "count": 4,
+    "id": 1227,
+    "name": "Lillie's Determination"
+   },
+   {
+    "count": 2,
+    "id": 721,
+    "name": "Kyogre"
+   },
+   {
+    "count": 2,
+    "id": 1121,
+    "name": "Ultra Ball"
+   },
+   {
+    "count": 2,
+    "id": 1145,
+    "name": "Mega Signal"
+   },
+   {
+    "count": 2,
+    "id": 1163,
+    "name": "Powerglass"
+   },
+   {
+    "count": 2,
+    "id": 1262,
+    "name": "Surfing Beach"
+   },
+   {
+    "count": 1,
+    "id": 1092,
+    "name": "Secret Box"
+   }
+  ],
+  "problems": [],
+  "rules_checked": true,
+  "engine_accepts": true,
+  "card_table": {
+   "count": 1431,
+   "id_range": [
+    1,
+    1431
+   ],
+   "sha256": "7fd6c45fcdc2913a1fe19ddb67c01aa9b204718cb760be7582cf4fcc3513de9c"
+  }
+ },
+ "entry_static": {
+  "agent_defined": true,
+  "agent_line": 9,
+  "callable_bindings_after_agent": [],
+  "warning": null
+ },
+ "static_scan": {
+  "risk_hints": {
+   "uses __file__ (ABSENT when the SDK exec()s main.py)": [
+    "main.py:5: _H = os.path.dirname(__file__)"
+   ],
+   "cwd dependence": [
+    "main.py:7: _H = os.getcwd()"
+   ],
+   "random choice (possible fallback policy)": [
+    "main.py:15: return random.sample(range(n), k)"
+   ]
+  },
+  "third_party_imports": [],
+  "note": "heuristic hints for human review, not verdicts"
+ },
+ "weights_scan": {
+  "arrays": [],
+  "max_deck_id": 1262,
+  "note": "direct-index tables need rows > max id; hashed/pooled tables need the id->slot map checked in source"
+ },
+ "kaggle_path_mode": "mount",
+ "cold_start": {
+  "first_observation_keys": [
+   "current",
+   "logs",
+   "remainingOverageTime",
+   "search_begin_input",
+   "select",
+   "step"
+  ],
+  "ok": true,
+  "first_call_wall_s": 0.001,
+  "load_s": 0.000308489999952144,
+  "agent_s": 0.0003299929999229789,
+  "call_ok": true,
+  "returns_60": true,
+  "strict_int_list": true,
+  "equals_deck_csv": true,
+  "validation": [],
+  "entrypoint_resolved_by_sdk_rule": "agent",
+  "main_globals_have___file__": false,
+  "entry_is_agent": true
+ },
+ "matches": {
+  "planned": 2,
+  "completed": 2,
+  "failed": 0,
+  "wins": 0,
+  "losses": 2,
+  "draws": 0,
+  "decisions": 188,
+  "illegal": 0,
+  "exceptions": 0,
+  "type_coerced": 0,
+  "suspect_duplicates": 0,
+  "nondone_statuses": 0,
+  "tracebacks": 0,
+  "fallback_counters": {},
+  "fallback_log_lines": 0,
+  "hosts_rss_mb_max": 181.4,
+  "worker_rss_mb_max": 226.6,
+  "overage_used_max_s": 0.077,
+  "opponent_failures": 0,
+  "failure_examples": [],
+  "agent_s": {
+   "p50": 0.000188,
+   "p95": 0.000302,
+   "p99": 0.00042,
+   "max": 0.000444
+  },
+  "rtt_s": {
+   "p50": 0.000444,
+   "p95": 0.000686,
+   "p99": 0.000888,
+   "max": 0.000908
+  },
+  "results_file": "/home/claude/m6/out/raw/fixture_dryrun/audits/fixture_rand.tar.gz.work/audit_matches.jsonl"
+ },
+ "safety_gate": [
+  {
+   "check": "archive layout/safety",
+   "passed": true,
+   "detail": "ok"
+  },
+  {
+   "check": "deck: 60 valid ids, legal, accepted by engine",
+   "passed": true,
+   "detail": "ok"
+  },
+  {
+   "check": "cold start (no __file__, SDK entrypoint rule): first call returns the 60-card deck",
+   "passed": true,
+   "detail": "{\"entrypoint_resolved_by_sdk_rule\": \"agent\"}"
+  },
+  {
+   "check": "all 2 BO3 matches completed with status DONE",
+   "passed": true,
+   "detail": "completed=2 failed=0 non-DONE=0 examples=[]"
+  },
+  {
+   "check": "zero illegal responses / exceptions / type coercions",
+   "passed": true,
+   "detail": "illegal=0 exceptions=0 type_coerced=0"
+  },
+  {
+   "check": "zero unexpected fallbacks (agent-exposed counters + log scan)",
+   "passed": true,
+   "detail": "counters>0={} fallback_log_lines=0 tracebacks=0  (counter names are heuristic: review)"
+  },
+  {
+   "check": "p99 per-decision agent time <= 1.0s and worst-match overage use <= 50% of 600s",
+   "passed": true,
+   "detail": "p99=0.00042 max=0.000444 overage_used_max=0.077s"
+  }
+ ],
+ "safety_gate_passed": true
+}

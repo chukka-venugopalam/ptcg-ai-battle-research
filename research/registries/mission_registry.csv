@@ -1,0 +1,10 @@
+mission_id,title,status,source_artifact,summary,primary_gap
+M01,Architecture and public research,completed,research/raw_archives/mission_01_research_package.zip,Reviewed public agent architectures and mapped candidate methods,No new model reproduced
+M02,Competition and meta audit,completed,research/raw_archives/mission_02_research_package.zip,Created meta source register and candidate experiment matrix,Current replay-backed meta census incomplete
+M03,Forensics and harness,completed_with_limitations,research/raw_archives/mission_03_output.zip,Built harness and archive audit plans; candidate rows were NOT RUN,No verified real-agent comparison in initial run
+M04,Evaluation statistics,completed,research/raw_archives/mission_04_output.zip,Added evaluation statistics module/tests,Subsequent fixes needed for proper match/game unit handling
+M05,Evidence and stats audit,completed_with_limitations,research/raw_archives/mission_05_output.zip,Canonical evaluation work; replay loss analysis contained zero matches,Historical loss cause unestablished
+M06,Evidence-first agent improvement,completed_with_limitations,research/raw_archives/mission_06_initial_output.zip,Initial run was blocked by input availability and used fixture tests,No real-agent result from that isolated run
+M06.1,Archive recovery and ID probe,completed_with_findings,research/raw_archives/mission_06_1_actual_evidence.zip,Recovered actual archive inputs and reproduced OOV embedding weakness,No win-rate improvement established
+M06.2,Actual local A/B screening,completed_with_inconclusive_results,research/raw_archives/mission_06_2_actual_evidence.zip,328 recorded tournament games plus smoke testing,No strategy variant promoted
+M07,Current meta and deck/policy upgrade,planned,research/missions/M07_meta_and_deck_upgrade/MISSION_PROMPT.md,Prompt and inputs saved but no execution output was available,Need current meta dataset and materially different policy

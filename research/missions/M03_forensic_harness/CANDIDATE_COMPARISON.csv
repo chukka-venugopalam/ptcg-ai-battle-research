@@ -1,0 +1,6 @@
+candidate_arm,config_hash,opponent_archetype,seat,N_completed,wins,losses,draws,win_rate,ci95_lo,ci95_hi,runtime_failures_self,failures_opponent,failures_unattributed,engine_build,status,notes
+control: Bv1 (submission_Bv1_backup_826.tar.gz),,__ALL__,all,0,,,,,,,,,,none (no matches run),NOT RUN,archive NOT PROVIDED - cannot hash or run
+R12 (submission_archaludon_cleanroom_r12.tar.gz),,__ALL__,all,0,,,,,,,,,,none (no matches run),NOT RUN,archive NOT PROVIDED - cannot hash or run
+A: Bv1 + one forensic patch,,__ALL__,all,0,,,,,,,,,,none (no matches run),NOT RUN,"NOT BUILT - requires Bv1 archive and >=50 loss replays to identify a recurrent, targetable failure class"
+B: public official pilot + matching deck,,__ALL__,all,0,,,,,,,,,,none (no matches run),NOT RUN,NOT BUILT - exact official source/licence not located; 60-card list not verified against R2
+C: rating-filtered replay-cloned specialist,,__ALL__,all,0,,,,,,,,,,none (no matches run),NOT RUN,NOT BUILT - no official replay corpus accessible; no training run performed

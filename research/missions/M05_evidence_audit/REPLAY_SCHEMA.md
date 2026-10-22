@@ -1,0 +1,2 @@
+# REPLAY_SCHEMA — UNKNOWN
+No official replay or log was available (no CLI, credentials or egress; none attached). Mission 3's parser targeted a locally synthetic replay and is NOT evidence of the official schema. Procedure when data arrives: hash raw files, hand-inspect 5 replays, record the observed fields (states, `current`, `select`, logs, game boundaries, `players.win`, results, seat/first-player), then adapt parsers; one row per BO3 match (games kept separately).

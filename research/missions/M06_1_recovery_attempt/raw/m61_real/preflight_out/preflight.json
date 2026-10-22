@@ -1,0 +1,10 @@
+{
+ "root": "/mnt/user-data/uploads",
+ "problems": [
+  "missing PTCG_MISSION_6_INPUTS_BUNDLE.zip",
+  "missing MISSION_6_OUTPUT.zip"
+ ],
+ "agents": {},
+ "engine": null,
+ "bundle_dir": null
+}

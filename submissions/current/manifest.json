@@ -1,0 +1,41 @@
+{
+  "release_date": "2026-10-22",
+  "release_name": "R2 compatibility reference candidate",
+  "archive_filename": "submission.tar.gz",
+  "archive_sha256": "0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a",
+  "archive_bytes": 4839805,
+  "source_archive": "submission_R2_compat_2026-10-15.tar.gz from user library",
+  "source_archive_sha256": "0f91f896ef703761d8601215f743177c28e929f49251f02022b936610982f28a",
+  "archive_is_byte_identical_to_source": true,
+  "strategy_changes_today": [],
+  "why_no_new_strategy_variant": "Mission 6.2 comparisons did not establish a statistically decisive improvement; no speculative flag/deck change was promoted.",
+  "model_weights_sha256": "3c79fb1a85bf27f5a931ce459914dbc2d1dae402763cebe9ce39d3e6ca29f1fd",
+  "deck_sha256": "5e3975788d2af4d21d5a84edcb4c0f4c51ded732287715669136b14861e45604",
+  "runtime_file_sha256": {
+    "main.py": "c7055754b58c37e8fcf1e99b69328d7cf6079de08ffa7061aa1245c09997dc22",
+    "deck.csv": "5e3975788d2af4d21d5a84edcb4c0f4c51ded732287715669136b14861e45604",
+    "sa/policynet.py": "00b8cfc210d2eec8fcb707e0fa026c13121989af3aafc576a90bc0ca8ee72513",
+    "sa/policy_net.npz": "3c79fb1a85bf27f5a931ce459914dbc2d1dae402763cebe9ce39d3e6ca29f1fd",
+    "cg/libcg.so": "c699020e086eede189c445c7abf9d891a60005ceec6eb91dccd5bbdcd3c0de22",
+    "cg/api.py": "593f1298e52a635f90f8f505a52113e9af114f444c293404e37906f18ee06ced"
+  },
+  "tar_members": 39,
+  "deck_cards": 60,
+  "unique_card_ids": 19,
+  "pycache_or_pyc_members": [],
+  "validation": {
+    "tar_layout": "PASS; main.py and deck.csv at root",
+    "deck_handshake": "PASS; deck length 60, accepted by BattleStart in local native smoke",
+    "exec_without___file__": "PASS; tested on local exec-style runner",
+    "one_native_self_play_game": "PASS; latest run on 2026-10-22 completed in 158 action selections in 4.070 seconds; both sides had no engine errors or illegal actions. Earlier runs completed in 181, 182 and 239 selections.",
+    "fallbacks": "0 on both sides in the latest 2026-10-22 smoke run",
+    "net_missing": "0 on both sides in the latest 2026-10-22 smoke run",
+    "synthetic_oov_embedding_probe": "PASS; card IDs 1300 and 1431, attack ID 1755 mapped safely; in-range rows remained identity mapped",
+    "strategic_strength": "NOT ESTABLISHED; local 328-game screening did not decisively promote any modification",
+    "live_rating": "NOT CHECKED in this build; do not infer current rating",
+    "oov_test_tool": "tools/smoke_test_submission.py",
+    "latest_smoke_actions": 158,
+    "latest_smoke_elapsed_seconds": 4.07,
+    "repository_utility_tests": "python -m unittest discover -s tests -v: 5 passed on 2026-10-22"
+  }
+}

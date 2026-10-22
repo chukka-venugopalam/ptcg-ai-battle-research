@@ -1,0 +1,2 @@
+# ARCHIVE_DIFFS — BLOCKED at `/mnt/user-data/uploads/PTCG_MISSION_6_INPUTS_BUNDLE.zip` (No such file or directory)
+No file list, hash or source diff exists for candidate/Bv1/B2/Bv2. Nothing is inferred from the brief's leads (see INPUT_PREFLIGHT.md). Ready: `python tools/m61.py audit --out OUT` writes exact file lists, unified source diffs, npz array diffs, deck-multiset diffs and runtime-flag source lines for candidate/B2/Bv2 vs Bv1.
