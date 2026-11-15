@@ -1,4 +1,4 @@
-# PROJECT_STATE: Kaggle PTCG AI Battle Challenge Playground (as of 2026-11-14)
+# PROJECT_STATE: Kaggle PTCG AI Battle Challenge Playground (as of 2026-11-15)
 
 Goal: #1 on the ladder (top about 1577 on 11-05; your target 1500+). Deadline 2027-01-08. 5 submissions/day, only the latest 2 stay active.
 
@@ -9,7 +9,8 @@ A3b went 942 -> 838 as it played more, so early scores overstate. Treat B and B2
 ## What each submission is
 - B  = 7th-place agent (Giovanni / Z3rox-dev, MIT) + Playground engine, Dragapult/Blaziken deck "F" (deck hash dc058243). Best family.
 - B2 = B plus estimated lookup rows for the 164 new-engine cards (ids 1268-1431) and 199 new attacks. Only the four out/*.npy tables differ. Old-card rows are bit-identical; actions differ on 5/2313 old-card states (0.22%). Mirror B2 vs B: 65-65 over my runs (no regression).
-- B2_licensed = B2 + LICENSE-7th-place + NOTICE.md. Same play. Use this file for any resubmission.
+- B2_licensed = B2 + LICENSE-7th-place + NOTICE.md. Same play.
+- B3 = B2_licensed + in-band reset of recurrent state and trackers between the games of a match (docs/RESET_FIX.md). Fixed beat current B2 108-92 over 200 ladder-faithful matches (54%, not significant). Use B3 for any resubmission.
 - A family = Dipam net (3rd place, MIT) with seat fix, UNK mapping, KO guard. Ceiling about 940-985 on this ladder.
 - C = Slowking exploiter from the 7th-place repo: 753.7, not worth keeping.
 
@@ -20,7 +21,8 @@ A3b went 942 -> 838 as it played more, so early scores overstate. Treat B and B2
 - Estimated rows: text = TF-IDF -> ridge (cosine 0.74 in cross-validation), atoms = kNN over similar old cards. Reading the opponent's unfamiliar cards: 14.3% of decisions differ from the true-table decisions with estimates vs 16.1% with zeros. A small gain, which matches the small ladder gain.
 - Deck swaps did not help (A3a/A3b). Local matches between decks do not predict ladder results.
 - My hand-built new-card decks (N1-N4) piloted by B2 lose badly to B + deck F (0-77 for N3). Not shippable.
-- The 7th-place energy search (FUNCNET4_ESEARCH) is switched OFF in B's main.py by its author. I left it off: the ladder thinking-time pool is unknown.
+- The 7th-place energy search (FUNCNET4_ESEARCH) is switched OFF by its author. Official interpreter: time pool 600 s per match. Locally the search costs about 85 s per game and cannot be validated on 2 CPUs, so it stays off.
+- The old local arena reset agents before every game; the ladder does not (deck asked once per match). Use tools/bo3_arena.py.
 
 ## Blockers
 1. No real ladder meta: deck "E" (hash 1652a67e, about 34% share on 10-28) has an unknown list. Needs Kaggle's daily episode export.
@@ -29,7 +31,7 @@ A3b went 942 -> 838 as it played more, so early scores overstate. Treat B and B2
 ## Next
 1. You run ladder_meta_extract.py in a Kaggle notebook on the daily episode export (or on B2's episodes) and send me ladder_meta_compact.json plus your team name.
 2. With it: real deck shares and win rates, B2's matchups by opponent deck, the thinking-time pool per game.
-3. Then: small deck tweaks for deck F against the real meta, and a time-safe endgame search if the pool allows.
+3. Then: hand-annotate the most-played new cards' effect features (higher value than all 164), small deck tweaks for deck F against the real meta.
 
 ## Risks / rules
 - Ladder noise is about +-25 after a day. Do not read a 20-point gap as real.

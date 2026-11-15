@@ -8,6 +8,7 @@ Work toward a top ladder position in Kaggle's *The Pokémon Company - PTCG AI Ba
 | Submission | What it is | Ladder score |
 |---|---|---|
 | B2 | 7th-place agent (round 1) + estimated lookup rows for the Playground's new cards | 1152.8 (best) |
+| B3 | B2 + in-band reset between the games of a match (see docs/RESET_FIX.md) | not yet submitted |
 | B | same agent without the new-card rows | 1131.1 |
 | A2 | Dipam's 3rd-place net with seat fix, unknown-card mapping and KO guard | 982.7 |
 | A3a / A3b / A / C | deck swaps, original net, exploiter | 905.1 / 837.8 / 809.2 / 753.7 |
@@ -27,7 +28,8 @@ Ladder top was about 1577 on 11-05. Scores drift for the first few days; treat d
 docs/                      project state, ladder log, decisions
 tools/
   ladder_meta_extract.py   Kaggle episode replays -> compact deck/result JSON
-  proc_arena.py, worker.py local best-of-3 arena, each agent in its own process
+  bo3_arena.py, worker.py  ladder-faithful best-of-3 arena (deck asked once per match, no reset between games)
+  proc_arena.py            older arena that resets agents before EVERY game (not ladder-faithful; use bo3_arena.py)
   shadow2.py               counts action disagreement between two agents on identical games
 patch_new_card_rows/       estimates lookup rows for new cards (TF-IDF ridge for text, kNN for effect features)
 ```
@@ -47,9 +49,11 @@ The output contains deck lists: keep it private.
 ```
 mkdir logs
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-python tools/proc_arena.py <dir containing cg/> <agent A dir> <agent B dir> 30
+python tools/bo3_arena.py <dir containing cg/> <agent A dir> <agent B dir> 100
 ```
-Use absolute paths. Setting the thread variables makes games about 15x faster.
+Use absolute paths; MATCH_OFFSET=<even number> runs a second slice in parallel. Setting the thread
+variables makes games about 15x faster. The arena mirrors the official cabt interpreter: the agent is
+asked for its deck once per match and is NOT reset between games 2 and 3.
 
 **New-card rows (needs the engine card dump and the agent's original tables):**
 ```

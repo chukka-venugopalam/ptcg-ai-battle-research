@@ -5,7 +5,8 @@
 - B2 = B + estimated rows for new ids (TF-IDF->ridge for text, kNN for atoms). Old rows bit-identical; 0.22% action change on old-card states; B2 vs B mirror 65-65.
 - Opponent-side reading: estimates differ from true-table decisions on 14.3% of decisions vs 16.1% for zeros (small gain).
 - Failed / no gain: deck swaps on the Dipam net (A3a/A3b), Slowking exploiter (C), hand-built new-card decks (N3 lost 0-77 to B+F).
-- Not enabled: 7th-place endgame energy search (author ships it off; ladder time pool unknown).
+- Between-game reset bug (B, A2 keep game-1 memory in games 2/3 on the ladder) fixed in B3; effect not measurable locally. See docs/RESET_FIX.md.
+- Not enabled: 7th-place endgame energy search (author ships it off; costs about 85 s per game locally, cannot be validated on 2 CPUs; time pool is 600 s per match in the official interpreter).
 - Open: real ladder meta (run tools/ladder_meta_extract.py), thinking-time pool, deck tweaks, training route (no GPU here).
 
 ## Rules / licences
